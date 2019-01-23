@@ -14,6 +14,12 @@
   * dimensions (These represent the character's size in the video game)
   * destroy() // prototype method -> returns the string: 'Object was removed from the game.'
 */
+function GameObject (attributes) {
+  this.createdAt = attributes.createdAt;
+  dimentions: {
+    
+  }
+}
 
 /*
   === CharacterStats ===
